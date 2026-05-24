@@ -1,6 +1,6 @@
 // sw.js - Service Worker para Suly.nails
 
-const CACHE_NAME = 'sulynails-v29';
+const CACHE_NAME = 'sulynails-v25';
 const urlsToCache = [
   '/sulynails/',
   '/sulynails/index.html',
