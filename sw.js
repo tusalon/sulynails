@@ -1,6 +1,6 @@
 // sw.js - Service Worker para Suly.nails
 
-const CACHE_NAME = 'sulynails-v29';
+const CACHE_NAME = 'sulynails-v47';
 const urlsToCache = [
   '/sulynails/',
   '/sulynails/index.html',
@@ -17,7 +17,14 @@ const urlsToCache = [
   '/sulynails/icons/icon-152x152.png',
   '/sulynails/icons/icon-192x192.png',
   '/sulynails/icons/icon-384x384.png',
-  '/sulynails/icons/icon-512x512.png'
+  '/sulynails/icons/icon-512x512.png',
+  '/sulynails/vendor/react.production.min.js',
+  '/sulynails/vendor/react-dom.production.min.js',
+  '/sulynails/vendor/babel.min.js',
+  '/sulynails/vendor/bcrypt.min.js',
+  '/sulynails/vendor/tailwind-browser.js',
+  '/sulynails/vendor/lucide/lucide.css',
+  '/sulynails/vendor/lucide/lucide.woff2'
 ];
 
 // ============================================
